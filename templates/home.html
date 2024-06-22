@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{for_name_page}}
+{% endblock %}
+
+{% block header %}
+    <h1>{{for_name_page}}</h1>
+{% endblock %}
+
+{% block content %}
+   {% for i in for_content %}
+      {{i}}<br>
+   {% endfor %}
+{% endblock %}
+
+{% block link1 %}
+<a href={{link_url}}>{{for_link}}</a>
+{% endblock %}

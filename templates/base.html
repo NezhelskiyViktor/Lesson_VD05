@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+</head>
+<body>
+    <header>
+        {% if for_name_page == "О нас" %}
+            {% block link2 %}{% endblock %}<br>
+        {% endif %}
+        {% block header %}{% endblock %}
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+        {% if for_name_page == "Главная страница" %}
+            {% block link1 %}{% endblock %}<br>
+        {% endif %}
+    </main>
+</body>
+</html>
