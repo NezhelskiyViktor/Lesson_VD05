@@ -7,5 +7,6 @@
 
 <h2>Результат выполнения задания</h2>
 ![screen](screenshot.jpg)
+
 ![screen](screenshot2.jpg)
 
